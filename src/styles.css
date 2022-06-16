@@ -1,0 +1,59 @@
+body{
+  background-color:black;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.mainform{
+  padding:10px;
+  border: 1px solid white;
+  width: 280px;
+  height: 130px;
+  margin: 200px auto;
+  background-color:white;
+  border-radius: 10px;
+  background-color: lightblue;
+}
+input{
+  padding: 5px;
+  margin: 10px;
+  width: 220px;
+  border-radius: 10px;
+  border:1px solid silver;
+}
+
+button{
+  padding: 5px;
+  width: 30%;
+  margin-top: 10px;
+  background-color: green;
+  border-radius: 20px;
+  border: 1px solid green;
+  color: white;
+}
+
+.images{
+  display:flex;
+  flex-wrap:wrap;
+  margin: 20px;
+  justify-content:center;
+  background-color: lightblue;
+  border-radius: 20px;
+}
+
+img{
+  margin: 10px;
+}
+
+@media screen and (max-width:330px){
+  .images{
+    margin: 1px;
+    border-radius: 2px;
+    background-color:black;
+  }
+  img{
+    margin: 1px;
+    border: 2px solid silver;
+  }
+}
